@@ -287,7 +287,7 @@
     </div>
 
     <div class="ticket-box">
-      <div class="ticket-note">Limited Slots Available</div>
+      <div class="ticket-note">Limited free tickets available</div>
       <button id="chatBtn" class="chat-btn">💬 Click to reserve your slot</button>
     </div>
   </div>
@@ -296,11 +296,6 @@
 (function(){
   const SLIDE_INTERVAL_MS = 7000;
   const WHATSAPP_LINK = "https://chat.whatsapp.com/DSvtJDNxymuBPRxyRTQQLk";
-  
-  window.addEventListener('load', () => {
-  window.location.href = WHATSAPP_LINK;
-});
-  
   const slider = document.getElementById('slider');
   const chatBtn = document.getElementById('chatBtn');
 
